@@ -27,8 +27,10 @@
     cursor: pointer;
     transition: transform 0.5s;
     perspective: 1000px;
+    z-index: 3;
+
     
   }
-  .FlipCard:hover {
+  /* .FlipCard:hover {
     transform: rotateY(180deg);
-  }
+  } */
